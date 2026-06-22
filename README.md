@@ -1,4 +1,4 @@
-### Hotplace
+### fastapi hotplace map
 FastAPI와 React를 활용한 핫플레이스 관리 웹 애플리케이션 실습 프로젝트
 
 ### 프로젝트 소개
