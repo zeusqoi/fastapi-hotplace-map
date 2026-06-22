@@ -1,0 +1,128 @@
+/* ===== Hotplace CSS ===== */
+
+:root {
+  --accent: #4f46e5;
+  --accent-bg: #eef2ff;
+  --accent-border: #a5b4fc;
+
+  --category-food-bg: #ffe0e0;
+  --category-food-text: #c62828;
+  --category-cafe-bg: #fff3e0;
+  --category-cafe-text: #e65100;
+  --category-book-bg: #e8f5e9;
+  --category-book-text: #2e7d32;
+  --category-shop-bg: #e3f2fd;
+  --category-shop-text: #1565c0;
+  --category-default-bg: #f5f5f5;
+  --category-default-text: #616161;
+
+  --vibes-hip-bg: #f3e8ff;
+  --vibes-hip-text: #6b21a8;
+  --vibes-emotional-bg: #fce7f3;
+  --vibes-emotional-text: #9d174d;
+  --vibes-calm-bg: #e0f2fe;
+  --vibes-calm-text: #075985;
+  --vibes-cozy-bg: #fef3c7;
+  --vibes-cozy-text: #92400e;
+  --vibes-luxury-bg: #f5f3ff;
+  --vibes-luxury-text: #4c1d95;
+  --vibes-vintage-bg: #fdf2f8;
+  --vibes-vintage-text: #831843;
+  --vibes-retro-bg: #fff7ed;
+  --vibes-retro-text: #9a3412;
+  --vibes-default-bg: #f1f5f9;
+  --vibes-default-text: #475569;
+}
+
+/* ===== 테이블 카드 ===== */
+.table-card {
+  background: #fff;
+  border-radius: 16px;
+  border: 1px solid #e5e7eb;
+  overflow: hidden;
+  margin-top: 24px;
+}
+
+.table-card table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.table-card thead tr {
+  background: #f9fafb;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.table-card th {
+  padding: 12px 16px;
+  text-align: center;
+  font-weight: 600;
+  color: #6b7280;
+  font-size: 13px;
+  letter-spacing: 0.03em;
+}
+
+.table-card tbody tr {
+  border-bottom: 1px solid #f3f4f6;
+  transition: background 0.15s;
+  cursor: pointer;
+}
+
+.table-card tbody tr:last-child {
+  border-bottom: none;
+}
+
+.table-card tbody tr:hover {
+  background: #f0f4ff;
+}
+
+.table-card td {
+  padding: 14px 16px;
+  text-align: center;
+  color: #374151;
+  vertical-align: middle;
+}
+
+.table-footer {
+  padding: 12px 20px;
+  background: #f9fafb;
+  border-top: 1px solid #e5e7eb;
+  font-size: 12px;
+  color: #9ca3af;
+  text-align: center;
+}
+
+/* ===== 카테고리 뱃지 ===== */
+.category-food    { background: var(--category-food-bg);    color: var(--category-food-text); }
+.category-cafe    { background: var(--category-cafe-bg);    color: var(--category-cafe-text); }
+.category-book    { background: var(--category-book-bg);    color: var(--category-book-text); }
+.category-shop    { background: var(--category-shop-bg);    color: var(--category-shop-text); }
+.category-default { background: var(--category-default-bg); color: var(--category-default-text); }
+
+.category-food, .category-cafe, .category-book, .category-shop, .category-default {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* ===== 분위기 뱃지 ===== */
+.vibes-hip       { background: var(--vibes-hip-bg);       color: var(--vibes-hip-text); }
+.vibes-emotional { background: var(--vibes-emotional-bg); color: var(--vibes-emotional-text); }
+.vibes-calm      { background: var(--vibes-calm-bg);      color: var(--vibes-calm-text); }
+.vibes-cozy      { background: var(--vibes-cozy-bg);      color: var(--vibes-cozy-text); }
+.vibes-luxury    { background: var(--vibes-luxury-bg);    color: var(--vibes-luxury-text); }
+.vibes-vintage   { background: var(--vibes-vintage-bg);   color: var(--vibes-vintage-text); }
+.vibes-retro     { background: var(--vibes-retro-bg);     color: var(--vibes-retro-text); }
+.vibes-default   { background: var(--vibes-default-bg);   color: var(--vibes-default-text); }
+
+.vibes-hip, .vibes-emotional, .vibes-calm, .vibes-cozy,
+.vibes-luxury, .vibes-vintage, .vibes-retro, .vibes-default {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 500;
+}
